@@ -8,10 +8,10 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header-container">
       <a href="index.html"><img src="Logo alb elegido aun sin fondo pequeño.jpg" alt="ALB Logo" class="logo" /></a>
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="quienes.html">Quiénes Somos</a></li>
           <li><a href="servicios.html" class="active">Servicios</a></li>
@@ -25,23 +25,88 @@
   </header>
 
   <main class="container">
-    <section class="intro">
-      <h1>Servicios de Alto Impacto</h1>
-      <p>En ALB Consultores no entregamos informes: implementamos soluciones que elevan tu rentabilidad. Cada servicio está diseñado para resolver problemas reales con ciencia aplicada, tecnología y foco en resultados.</p>
+    <section class="intro-services">
+      <h1>Nuestras Áreas de Impacto Estratégico</h1>
+      <p>Combinamos ciencia avanzada, experiencia operacional y ejecución directa para apoyar a empresas que aspiran a liderar con rentabilidad.</p>
     </section>
 
-    <section class="services-cards">
-      <div class="card-service">
-        <div class="card-icon">📊</div>
-        <h2>Forecast & IA Predictiva</h2>
-        <p>Pronósticos robustos con modelos Holt, LSTM, TESMTH y algoritmos híbridos. Mejora tus decisiones de abastecimiento, producción y ventas.</p>
-        <ul>
-          <li>Reducción de quiebres y sobrestock</li>
-          <li>Simulación de escenarios</li>
-          <li>Automatización de forecast continuo</li>
-        </ul>
-      </div>
+    <section class="services-showcase">
+      <article class="service-highlight">
+        <div>
+          <h2>Forecast & Modelamiento Predictivo</h2>
+          <p>Aplicamos IA de última generación (XGBoost, Prophet y redes neuronales) para reducir quiebres en un 40% y exceso de inventario en un 30%.</p>
+          <ul>
+            <li>Simulación de escenarios estacionales.</li>
+            <li>Integración con sistemas ERP.</li>
+            <li>Entrenamiento en equipo de demanda.</li>
+          </ul>
+        </div>
+        <div><img src="img_forecast.jpg" alt="Forecast con IA"></div>
+      </article>
 
-      <div class="card-service">
-        <div class="card-icon">🚛</div>
-        <h2>Opt
+      <article class="service-highlight reverse">
+        <div><img src="img_logistics.jpg" alt="Logística eficiente"></div>
+        <div>
+          <h2>Optimización Logística & Supply Chain</h2>
+          <p>Diseñamos redes inteligentes, rutas con algoritmos heurísticos y logística inversa, logrando reducciones de hasta 25% en costos.</p>
+          <ul>
+            <li>Análisis de zonas y rutas geográficas.</li>
+            <li>Dashboards operacionales en Power BI/Tableau.</li>
+            <li>Pilotaje en planta o centro de distribución.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-highlight">
+        <div>
+          <h2>S&OP y Planificación Comercial</h2>
+          <p>Implementamos ciclos S&OP que alinean ventas, operaciones y finanzas. Eliminaron cuellos de botella y mejoraron la precisión de pronósticos en un 35%.</p>
+          <ul>
+            <li>Fases: análisis, preparación, revisión y ejecución.</li>
+            <li>KPIs semanales y tablero de control integral.</li>
+            <li>Capacitación y facilitación de workshops.</li>
+          </ul>
+        </div>
+        <div><img src="img_sop.jpg" alt="Reunión S&OP"></div>
+      </article>
+
+      <article class="service-highlight reverse">
+        <div><img src="img_analytics.jpg" alt="Analytics avanzado"></div>
+        <div>
+          <h2>Data Analytics & Dashboards Ejecutivos</h2>
+          <p>Llevamos datos a decisiones: automatización, alertas en tiempo real y dashboards usables en campo, con mejora de KPIs clave.</p>
+          <ul>
+            <li>Desarrollo de reportes dinámicos.</li>
+            <li>Alertas proactivas sobre desvíos.</li>
+            <li>Soporte post-implementación.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-highlight">
+        <div>
+          <h2>Reducción de Costos & Excelencia Operacional</h2>
+          <p>Diseñamos iniciativas Quick Win + Plan de cambio, logrando aumentos de productividad de hasta un 20% por línea de negocio.</p>
+          <ul>
+            <li>Mapeo de procesos y medición de tiempos.</li>
+            <li>Control visual y gestión Lean.</li>
+            <li>Embedded con equipos operativos.</li>
+          </ul>
+        </div>
+        <div><img src="img_costs.jpg" alt="Costo operacional"></div>
+      </article>
+    </section>
+
+    <section class="cta-lp">
+      <h2>¿Listo para transformar resultados?</h2>
+      <a href="contacto.html" class="cta-button">Contáctanos hoy</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 ALB Consultores • contacto@albconsultores.com</p>
+    </div>
+  </footer>
+</body>
+</html>
